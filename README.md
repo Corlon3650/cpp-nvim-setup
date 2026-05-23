@@ -6,3 +6,6 @@
 
 ```bash
 git clone https://github.com/Corlon3650/cpp-nvim-setup.git && cd nvim-cpp-setup && chmod +x install.sh && ./install.sh
+```
+## Среда на neovim с автодополнением, LSP и горячими клавишами:
+## CTRL + B: сохранить, скомпелировать и запустить
