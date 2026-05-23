@@ -78,5 +78,4 @@ function RunCpp()
 end
 
 -- 6. Горячие клавиши
-vim.keymap.set({ "n", "i" }, "<C-b>", RunCpp, { desc = "Compile and run C++" })
-vim.keymap.set('t', '<C-k>', '<C-\\><C-n>', { desc = "Exit terminal mode" })
+vim.keymap.set({ "n", "i" }, "<C-b>", RunCpp, { desc = "Compline and run C++" })
