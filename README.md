@@ -5,7 +5,7 @@
 ## 🚀 Быстрая установка (скопируй и вставь в Termux)
 
 ```bash
-git clone https://github.com/Corlon3650/cpp-nvim-setup.git && cd nvim-cpp-setup && chmod +x install.sh && ./install.sh
+git clone https://github.com/Corlon3650/cpp-nvim-setup.git && cd cpp-nvim-setup && chmod +x install.sh && ./install.sh
 ```
 Среда на neovim с автодополнением, LSP и горячими клавишами:
 Команда Действие
