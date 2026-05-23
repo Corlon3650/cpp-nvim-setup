@@ -13,7 +13,6 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
-      -- НОВЫЙ СПОСОБ (Neovim 0.11+)
       vim.lsp.config.clangd = {
         cmd = {
           "clangd",
@@ -36,5 +35,13 @@ return {
         }
       })
     end,
+  },
+
+  {
+    "windwp/nvim-autopairs",
+    ivent = "InsertEnter",
+    config = function()
+      require("nvim-autopairs").setup()
+    end
   },
 }
