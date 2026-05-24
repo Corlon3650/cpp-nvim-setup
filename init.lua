@@ -52,7 +52,7 @@ vim.lsp.config.clangd = {
 vim.lsp.enable("clangd")
 
 -- 4. Базовые настройки интерфейса
-vim.cmd("colorscheme gruvbox") -- Цвет
+vim.cmd("colorscheme folke/tokyonight.nvim") -- Цвет
 vim.opt.number = true          -- Нумерация строк
 vim.opt.tabstop = 4            -- Размер табуляции
 vim.opt.shiftwidth = 4         -- Размер отступа
